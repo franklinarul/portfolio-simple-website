@@ -1,0 +1,290 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+body{
+    font-family: "Libre Baskerville", serif;
+}
+
+.container{
+    padding: 50px;
+}
+
+.section__one{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.section__one__title{
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+.section__one__dec{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.section__one__btn{
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section__one,.section2,.section4,.section5{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.section5{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+.section5__dec{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section5__dec a{
+    color: aqua;
+}
+
+.section2__title{
+    padding-bottom: 20px;
+}
+
+.section__dec{
+    font-weight: 700;
+}
+
+.section3__dec{
+    list-style: none;
+}
+
+/* .section3{
+    background-color: brown;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    vertical-align: top;
+    height: 150px;
+}
+
+.section__one__btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.section4{
+    background-color: violet;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    border-radius: 20px;
+    height: 150px;
+}
+
+.section4__dec{
+    list-style: none;
+    
+} */
+
+.section__one__btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.section3__dec1{
+      background-color:black;
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    color: white;
+}
+
+.section3__dec2{
+      background-color:black;
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    vertical-align: top;
+    color: white;
+}
+
+.section3__dec3{
+      background-color: black;
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    vertical-align: top;
+    color: white;
+}
+
+.section3__title{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.section3 img{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.section3 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section4__dec1{
+    background-color: black;
+    display: inline-block;
+    width: 650px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    vertical-align: top;
+    color: white;
+}
+
+.section4__dec2{
+    background-color: black;
+    display: inline-block;
+    width: 650px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    vertical-align: top;
+    color: white;
+    
+}
+
+.section3__dec2{
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section4 img{
+height: 250px;
+    width: 650px;
+    border-radius: 20px;
+}
+
+.section4 h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section3__dec1:hover{
+    background-color:white;
+    color: black;
+     border: solid 3px black;
+} 
+
+.section3__dec2:hover{
+    background-color:white;
+    color: black;
+    border: solid 3px black;
+} 
+
+.section3__dec3:hover{
+    background-color: white;
+    color: black;
+     border: solid 3px black;
+} 
+
+.section4__dec1:hover{
+    background-color: gray;
+    border: solid 5px black;
+} 
+.section4__dec2:hover{
+    background-color: gray;
+    border: solid 5px black;
+} 
+
+.section2__img{
+    display: inline-block;
+}
+
+.section2__dec{
+    display: inline-block;
+}
+.section2__img{
+    width: 290px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.imgdiv{
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.section2__dec{
+    display: inline-block;
+    width: 1000px;
+    padding-top: 60px;
+    padding-left: 20px;
+    text-align: justify;
+    
+}
+.decouter{
+    display: inline-block;
+}
+.section3__dec3 img{
+    border: solid 2px black;
+}
+
+.form{
+    display: inline-block;
+}
+
+.contact__div{
+    background-color: orange;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    justify-content: center;
+    display:flex;
+    justify-content: center;
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+.contact__table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table__head{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: orange;
+}
+
+.table__email{
+    padding-bottom: 30px;
+}
